@@ -19,7 +19,7 @@ import cucumber.api.PendingException;
 import cucumber.api.java.nl.Als;
 import cucumber.api.java.nl.Dan;
 
-public class BrowserSteps {
+public class ALoginPotencaAdmin {
 	private String baseUrl = "http://www.potenca.nl/webshop/dnvvwdxhgasap4j3";
 
 
@@ -55,14 +55,15 @@ public class BrowserSteps {
 
 	}
 	
-	private boolean isElementPresent(By by) {
+	private boolean isElementPresent(By by) 
+	{
 	    try {
 	      BrowserUtils.getWebDriver().findElement(by);
 	      return true;
 	    } catch (NoSuchElementException e) {
 	      return false;
 	    }
-	  }
+	 }
 
 }
 	
