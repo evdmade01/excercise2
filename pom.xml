@@ -83,7 +83,7 @@
 		        <configuration>
 		          <systemPropertyVariables>
 		            <!--  Nodig voor de IE driver van Selenium. -->
-		            <webdriver.ie.driver>U:\tools\selenium\IEDriverServer.exe</webdriver.ie.driver>
+		            <webdriver.ie.driver>C:\CucumberWorkshop-project\tools\selenium\IEDriverServer.exe</webdriver.ie.driver>
 		          </systemPropertyVariables>
 		        </configuration>
 		      </plugin>

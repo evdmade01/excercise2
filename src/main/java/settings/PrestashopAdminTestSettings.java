@@ -17,15 +17,15 @@ public class PrestashopAdminTestSettings {
 	/**
 	 * Firefox executable absolute path location
 	 */
-	public static String FF_Path = "U:/tools/FirefoxPortable/App/Firefox/firefox.exe";
+	public static String FF_Path = "C:/CucumberWorkshop-project/tools/FirefoxPortable/App/Firefox/firefox.exe";
 	
 	/**
 	 * Internet Explorer executable absolute path location
 	 */
-	public static String IE_Path = "U:/tools/selenium/IEDriverServer64.exe";
+	public static String IE_Path = "C:/CucumberWorkshop-project/tools/selenium/IEDriverServer64.exe";
 	/**
 	 * Chrome executable absolute path location
 	 */
-	public static String Chrome_Path = "U:/tools/selenium/chromedriver_win32/chromedriver.exe";
+	public static String Chrome_Path = "C:/CucumberWorkshop-project/tools/selenium/chromedriver_win32/chromedriver.exe";
 	
 }
